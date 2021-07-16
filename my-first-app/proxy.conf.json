@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://demo.onvio.us/api/storage/v1/Folders/e964f445de4a434488d39256909c0d59/children?from=1&pageSize=100&sort=name:asc&containersOnly=false&trashed=false&countDocuments=false&calculateLocks=true",
+    "target": "url",
     "secure": true,
     "changeOrigin": true,
     "pathRewrite": {

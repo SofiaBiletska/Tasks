@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Name</th>
+    <th>Modified Date</th>
+  </tr>
+  <tr *ngFor="let item of dataForTable; index as i;">
+    <td>{{dataForTable[i].documentType}}</td>
+    <td>{{dataForTable[i].name}}</td>
+    <td>{{dataForTable[i].modifiedDate|date:'short'}}</td>
+  </tr>
+</table>
